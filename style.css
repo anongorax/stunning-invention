@@ -16,12 +16,19 @@ h2{
 
 h1{
     font-size: 20px;
-    line-height: 64px;
+    line-height: 25px;
 }
 
 p {
     font-size: 16px;
     margin: 15px 0 20px 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border: solid 2px rgb(49, 48, 48);
+    border-width: 20%;
+    color: azure;
 }
 
 /*Header*/
@@ -34,24 +41,42 @@ p {
 }
 
 #sidenav{
-    display: flex;
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 0 px; /* Set the width of the sidebar */
+    width: 20%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: -1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #111; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+    padding-top: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.sidenav a {
+#logo{
+    position: absolute;
+    left: 50px;
+}
+
+#sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
-    color: #818181;
+    font-size: 15px;
     display: block;
+    color: antiquewhite;
+}
+
+#sidenav li{
+    list-style: none;
+}
+
+#sidenav li a:hover{
+    color:aqua;
+}
+
+a{
+    text-decoration: none;
 }
 
 .logo{
@@ -60,20 +85,8 @@ p {
   padding: 6px 8px 6px 16px;
 }
 
-.title_page1{padding: 5px; 
-    border: 1px solid lightgray; 
+.title_page1{padding: 2px; 
     position: relative;
-    left:180px;
-    top: 60px;
-}
-
-.Box{
-    background: ghostwhite; font-size: 20px; padding: 10px; 
-    border: 1px solid lightgray; 
-    margin: 10px;
-    height: 600px;
-    width: 1000px;
-    position: relative;
-    left:180px;
-    top: 80px;
+    left:25%;
+    top:10px;
 }
