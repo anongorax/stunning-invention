@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page_1</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
+    <div id="topBar">
+        <h1 id="userName">manav.am</h1>
+        <i class="fa fa-home" id="homeIcon" aria-hidden="true">
+            <select name="settings" id="settings">
+                <option value="Home">Home</option>
+                <option value="ChgPass">Change Password</option>
+                <option value="Profile">Profile</option>
+                <option value="Logout">Logout</option>
+            </select>
+        </i>
+    </div>
     <section id="header">
         <!-- adding logo -->
         <a href="#"><img id="logo" src="report-icon.png" alt="title_logo" width="130" height="110"></a>
@@ -24,5 +35,18 @@
             </ul>
         </div>
     </section>
+        <div class="container">
+            <h1>Reports!!! What you need today ?</h1>
+            <hr id="hr1" color="black">
+            <div class="box">
+                <h1>What's New</h1>
+            </div>
+            <div class="box2">
+                <h1>Usage Statistics</h1>
+            </div>
+            <div class="box3">
+                <h1>Latest Reports</h1>
+            </div>
+        </div>
 </body>
 </html>
