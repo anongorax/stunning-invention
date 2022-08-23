@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aisa_Reports</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="topBar">
+        <h1 id="userName">manav.am</h1>
+        <i class="fa fa-home" id="homeIcon" aria-hidden="true">
+            <select name="settings" id="settings">
+                <option value="Home">Home</option>
+                <option value="ChgPass">Change Password</option>
+                <option value="Profile">Profile</option>
+                <option value="Logout">Logout</option>
+            </select>
+        </i>
+    </div>
+    <section id="header">
+        <!-- adding logo -->
+        <a href="#"><img id="logo" src="report-icon.png" alt="title_logo" width="130" height="110"></a>
+        <!-- Side navigation -->
+        <div>
+            <ul id="sidenav">
+                <li><a href="adhoc.html">Adhoc Reports </a></li>
+                <li><a href="iberia.html">Iberia Reports</a></li>
+                <li><a href="asia.html">Asia Reports</a></li>
+                <li><a href="ceemea.html">Ceemea Reports</a></li>
+                <li><a href="la.html">LA Reports</a></li>
+                <li><a href="we.html">WE Reports</a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="container">
+        <h1>Manage Jobs</h1>
+        <hr id="hr1" color="black">
+        <div class="addJob">
+            <h1>Add Job</h1>
+            <input id="jobName" type="text" placeholder="Job Name">
+            <textarea name="SqlField" id="SqlField" cols="30" rows="10" placeholder="Please Paste the SQL Here !!!"></textarea>
+            <input id="desc" type="text" placeholder="Description">
+            <select name="Region" id="Regiondd">
+                <option value="AsiaRegion">Select Region</option>
+                <option value="AsiaRegion">Asia Region</option>
+                <option value="CeemeaRegion">Ceemea Region</option>
+                <option value="LARegion">LA Region</option>
+                <option value="WERegion">WE Region</option>
+            </select>
+            <button id="save">Save Job</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="Schedule">
+            <h1>Schedule</h1>
+            <input type="radio" id="r1" name="sche1" value="Never">
+            <label for="r1">Never</label><br>
+            <input type="radio" id="r2" name="sche2" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="Never">Never<input type="radio" name="Never" id="r1"></label>
+            <input type="radio" name="Daily" id="r2">
+            <input type="radio" name="Weekly" id="r3">
+        </div>
+    </div>
+</body>
+</html>

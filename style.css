@@ -195,3 +195,103 @@ a{
     padding-left: 10px;
     font-size: medium;
 }
+
+.addJob {
+    background: whitesmoke;
+    height: 450px;
+    width: 420px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.addJob h1 {
+    background-color: bisque;
+    margin-left: -20px;
+    border-radius: 6px;
+    margin-top: -10px;
+    padding-left: 10px;
+    font-size: medium;
+}
+
+#jobName {
+    margin-top: 20px;
+    width: 378px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: black;
+}
+
+#desc {
+    margin-top: 10px;
+    width: 378px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: black;    
+}
+
+#SqlField {
+    margin-top: 10px;
+    width: 378px;
+    height: 238px;
+    padding-left: 5px;
+    border-radius: 6px;
+    border-color: black;
+    padding-top: 5px;
+    resize: none;
+}
+
+#Regiondd {
+    margin-top: 10px;
+    width: 161px;
+    padding: 3px;
+}
+
+#save {
+    padding: 5.5px;
+    position: relative;
+    left: -164px;
+    top: 41px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: ui-sans-serif;
+}
+
+#reset {
+    padding: 5.5px;
+    position: relative;
+    left: -164px;
+    top: 41px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: ui-sans-serif;
+}
+
+.Schedule {
+    position: relative;
+    background: whitesmoke;
+    height: 450px;
+    width: 420px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+    top: -475px;
+    left: 454px;
+}
+
+.Schedule h1 {
+    background-color: bisque;
+    margin-left: -20px;
+    border-radius: 6px;
+    margin-top: -10px;
+    padding-left: 10px;
+    font-size: medium;
+}
